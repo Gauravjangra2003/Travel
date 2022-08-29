@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img10.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo {
+    color:yellow;
+    font-size: 300px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+span {
+    color: white;
+}
+.btn {
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: yellow;
+    padding: 20px 40px;
+    font-size: 100px;
+    border-radius: 50px;
+}
+.nav {
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.text h1{
+    color: yellow;
+    font-weight: 800;
+    font-size: 250px;
+    letter-spacing: 2px;
+}
+.text p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 110px;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+.btnone{
+    margin: 0px 10px;
+    border: 2px solid yellow;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: black;
+    border-radius: 40px;
+    background-color: yellow;
+    text-decoration: none;
+    font-size: 80px;
+}
+.btnone :hover {
+    border: 2px solid yellow;
+    color:yellow;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btntwo{
+    margin: 0px 10px;
+    border: 2px solid yellow;
+    padding: 13px 35px;
+    letter-spacing: 1px;
+    color: yellow;
+    border-radius: 40px;
+    background-color:white;
+    text-decoration: none;
+    font-size: 80px;
+}
+.btntwo :hover {
+    border: 2px solid yellow;
+    color:black;
+    background-color: yellow;
+    transition: 0.5s;
+    cursor: pointer;
+}
