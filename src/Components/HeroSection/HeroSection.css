@@ -1,0 +1,136 @@
+.hero-content{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container{
+    width: 1200.87px;
+    height: 764px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herotext{
+    height: 535px;
+    max-width: 630px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 10;
+    margin-left: 25px;
+}
+
+.heroimg{
+  max-width: 783px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.heroimg img {
+display: block;
+  max-width: 783px;
+  height: auto;
+  
+}
+
+
+/* Text section css */
+
+.hero-section-label {
+  font-size: 20px;
+  font-weight: 600;
+  color: #df6951;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.hero-title {
+  font-size:84px;
+  font-weight: 700;
+  color: #181e4b;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.hero-title .highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.hero-title .highlight::after {
+  content: '';
+  position: absolute;
+  bottom: 0.15em;
+  left: 0;
+  right: 0;
+  height: 0.4em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 20'%3E%3Cpath d='M0,12 Q25,8 50,12 T100,12 T150,12 T200,12' stroke='%23ff7b29' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.hero-description {
+    font-weight: 200;
+  font-size: 16px;
+  color: #5E6282;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  letter-spacing: 0.4px;
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  width: 379px;
+  height: 60px;
+}
+
+.playbtn{
+    width: 170px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(241, 183, 75);
+    border: none;
+    cursor: pointer;
+}
+
+.playbtn:hover {
+  background: #e86a1f;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px rgba(255, 123, 41, 0.4);
+}
+
+.playimg{
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.playimg img{
+    width: 64px;
+    height: 64px;
+}
+
+.playimg:hover {
+    width: 80px;
+    height: 80px;
+}
+
+.playdemo p{
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.playdemo:hover{
+    color: #e86a1f;
+}

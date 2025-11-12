@@ -6,6 +6,7 @@
   padding: 1.5rem 0;
   display: flex;
   justify-content: center;
+  position: static;
 }
 
 .header-content {
@@ -20,15 +21,14 @@
 .logo{
   width: 114.91px;
   height: 33.99px;
-  position: fixed;
 }
 
 .nav {
   display: flex;
-  gap: 4rem;
+  gap: 4rem; 
   align-items: center;
   justify-content: center;
-  margin-left: 100px;
+   margin-left: 130px;
 
 }
 
@@ -39,7 +39,7 @@
   font-size: 1rem;
   transition: color 0.3s ease;
   position: relative;
-  left:280px;
+  left:50px;
 }
 
 .nav-link::after {
