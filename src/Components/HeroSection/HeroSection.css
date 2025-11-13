@@ -92,10 +92,10 @@ display: block;
 }
 
 .playbtn{
-    width: 170px;
+    width: 142px;
     font-weight: 500;
     font-size: 16px;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 8px 10px 8px;
     border-radius: 4px;
     color: white;
     background-color: rgb(241, 183, 75);
