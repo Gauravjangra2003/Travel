@@ -1,24 +1,23 @@
 import "./Services.css"
-import STAR from "../../../public/assets/images/star.png"
 
   const services = [
     {
-      icon: '/public/assets/svg/sattelite.svg',
+      icon: '/assets/svg/sattelite.svg',
       title: 'Calculated Weather',
       description: 'Built Wicket longer admire do barton vanity itself do in it.'
     },
     {
-      icon: '/public/assets/svg/plane.svg',
+      icon: '/assets/svg/plane.svg',
       title: 'Best Flights',
       description: 'Engrossed listening. Park gate sell they west hard for the.'
     },
     {
-      icon: '/public/assets/svg/mike.svg',
+      icon: '/assets/svg/mike.svg',
       title: 'Local Events',
       description: 'Barton vanity itself do in it. Preferd to men it engrossed listening.'
     },
     {
-      icon: '/public/assets/svg/setting.svg',
+      icon: '/assets/svg/setting.svg',
       title: 'Customization',
       description: 'We deliver outsourced aviation services for military customers'
     }
@@ -37,7 +36,7 @@ const Services = () => {
                   <span className="head_ing">We Offer Best Services</span>
            </div>
            <div className="st_ar">
-            <img  src={STAR} alt="image not foudn" />
+            <img  src="/assets/images/star.png" alt="image not foudn" />
            </div>
         </div>
         <div className="services-grid">

@@ -1,6 +1,4 @@
 import "./HeroSection.css";
-import heroimg from "../../../public/assets/images/HeroImg.png"
-import playbtn from "../../../public/assets/svg/Playbutton.svg"
 
 export const HeroSection = () => {
   return (
@@ -16,12 +14,12 @@ export const HeroSection = () => {
             </p>
               <div className="hero-actions">
               <button className="playbtn">Find out more</button>
-              <img className="playimg" src={playbtn} alt="" />
+              <img className="playimg" src="/assets/svg/Playbutton.svg" alt="" />
                <p className="playdemo">Play Demo</p>
             </div>
       </div>
       <div className="heroimg">
-        <img src={heroimg} alt="hero image not found" />
+        <img src="/assets/images/HeroImg.png" alt="hero image not found" />
       </div>
      </div>
     </div>

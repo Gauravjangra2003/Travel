@@ -1,20 +1,17 @@
 import "./Bookingsteps.css"
-import Greece from "../../../public/assets/images/greece.png"
-import building from "../../../public/assets/svg/building.svg"
-import heart from "../../../public/assets/svg/heart.svg"
 
 const BookingSteps = [
     {
-        images : '/public/assets/svg/destination.svg',
+        images : '/assets/svg/destination.svg',
         name : 'Choose Destination',
         description : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptates.'
     },
      {
-        images : '/public/assets/svg/payments.svg',
+        images : '/assets/svg/payments.svg',
         name : 'Make Payment',
         description : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptates.'
     }, {
-        images : '/public/assets/svg/reach.svg',
+        images : '/assets/svg/reach.svg',
         name : 'Reach Airport on Selected Date',
         description : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptates.'
     },
@@ -23,14 +20,14 @@ const BookingSteps = [
 const iconimages = [
     {
         id : 1,
-        icon : '/src/assets/svg/LEAF.svg'
+        icon : '/assets/svg/LEAF.svg'
     },
      {
         id : 2,
-        icon : '/src/assets/svg/mapicon.svg'
+        icon : '/assets/svg/mapicon.svg'
     }, {
         id : 3,
-        icon : '/src/assets/svg/send.svg'
+        icon : '/assets/svg/send.svg'
     },
 ]
 
@@ -60,7 +57,7 @@ const Bookingsteps = () => {
             <div className="booking_view">
                  <div className="booking_view_card">
                     <div className="booking_greece_img">
-                        <img src={Greece} alt="image not found" />
+                        <img src="/assets/images/greece.png" alt="image not found" />
                     </div>
                     <div className="booking_trip_content">
                         <p className="greecehead">
@@ -76,10 +73,10 @@ const Bookingsteps = () => {
                         </div>
                         <div className="ongoing">
                             <div className="ongoing2">
-                                <img src={building} alt="image not found" />
+                                <img src="/assets/svg/building.svg" alt="image not found" />
                                 <p className="ongoing_text">24 people going</p>
                             </div>
-                            <img src={heart} alt="image not found" />
+                            <img src="/assets/svg/heart.svg" alt="image not found" />
                         </div>
                     </div>
                  </div>

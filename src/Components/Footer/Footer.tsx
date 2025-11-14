@@ -1,12 +1,9 @@
 import './Footer.css'
-import Jadoo from '../../../public/assets/svg/Jadoo..svg'
-import googleplay from "../../../public/assets/svg/GooglePlay.svg"
-import applestore from "../../../public/assets/svg/PlayStore.svg"
 
 const DiscoverIcon = [
-    {id : 1 , images :'/public/assets/svg/social.svg'},
-    {id : 2 , images :'/public/assets/svg/social(1).svg'},
-    {id : 3 , images :'/public/assets/svg/social(2).svg'},
+    {id : 1 , images :'/assets/svg/Social.svg'},
+    {id : 2 , images :'/assets/svg/Social(1).svg'},
+    {id : 3 , images :'/assets/svg/Social(2).svg'},
 ]
 
 const Footer = () => {
@@ -14,7 +11,7 @@ const Footer = () => {
     <div className='Footer'>
         <div className="footer_container">
             <div className="F_Name">
-                <img className='Jadoo' src={Jadoo} alt="image not found" />
+                <img className='Jadoo' src="/assets/svg/Jadoo..svg" alt="image not found" />
                 <p className='jadoo_para'>Book your trip in minute, get full Control for much longer.</p>
             </div>
 
@@ -53,8 +50,8 @@ const Footer = () => {
                 <div className="discoverstore">
                     <p className='paradiscover'>Discover our app</p>
                     <div className='stores'>
-                        <img src={googleplay} alt="" />
-                        <img src={applestore} alt="" />
+                        <img src="/assets/svg/GooglePlay.svg" alt="" />
+                        <img src="/assets/svg/PlayStore.svg" alt="" />
                     </div>
                 </div>
             </div>

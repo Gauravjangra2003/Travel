@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom"
-import LOGO from "../../../public/assets/svg/Logo.svg"
-import DOWNARROW from "../../../public/assets/svg/downarrow.svg"
 import "./Header.css"
 
 const Header = () => {
@@ -8,7 +6,7 @@ const Header = () => {
      <header className="header">
       <div className="container">
         <div className="header-content">
-          <img src={LOGO} alt="logo not found" className="logo"/>
+          <img src="/assets/svg/Logo.svg" alt="logo not found" className="logo"/>
           <nav className="nav">
              <a href="#destinations" className="nav-link">
               Destinations
@@ -28,7 +26,7 @@ const Header = () => {
             <button className="btn-signup">Sign up</button>
             <div className="language-selector"> 
              <span>EN </span>
-             <img src={DOWNARROW} alt="" />
+             <img src="/assets/svg/downarrow.svg" alt="" />
             </div>
           </div>
         </div>

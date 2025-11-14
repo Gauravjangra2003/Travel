@@ -1,6 +1,4 @@
 import './Testimonial.css'
-import UP from "../../../public/assets/svg/up.svg"
-import DOWN from "../../../public/assets/svg/down.svg"
 import { useState } from 'react';
 
  const testimonial = [
@@ -8,7 +6,7 @@ import { useState } from 'react';
     id: 1,
     location: "Lahore, Pakistan",
     name: "Mike Taylor",
-    image: "/public/assets/svg/user1.svg",
+    image: "/assets/svg/user1.svg",
     text: `“On the Windows talking painted pasture yet its express parties use. 
     Sure last upon he same as knew next. Of believed or diverted no.”`,
   },
@@ -16,7 +14,7 @@ import { useState } from 'react';
     id: 2,
     location: "CEO of Red Button",
     name: "Chris Thomas",
-    image: "/public/assets/svg/user1.svg",
+    image: "/assets/svg/user1.svg",
     text: `“We needed a solution for travel planning and this app delivered exactly what we required. 
     Exceptional experience!”`,
   },
@@ -24,7 +22,7 @@ import { useState } from 'react';
     id: 3,
     location: "Dubai, UAE",
     name: "Zara Malik",
-    image: "/public/assets/svg/user1.svg",
+    image: "/assets/svg/user1.svg",
     text: `“Simple and fast. Planning trips has never been easier than this.”`,
   },
 ];
@@ -70,8 +68,8 @@ const Testimonial = () => {
         ))}
       </div>
       <div className='Arrows'>
-        <button className="arrow_up" onClick={prevSlide}><img src={UP} alt="" /></button>
-        <button className="arrow_down" onClick={nextSlide}><img src={DOWN} alt="" /></button>
+        <button className="arrow_up" onClick={prevSlide}><img src="/assets/svg/up.svg" alt="" /></button>
+        <button className="arrow_down" onClick={nextSlide}><img src="/assets/svg/down.svg" alt="" /></button>
       </div>
 
     </div>

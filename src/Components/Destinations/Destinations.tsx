@@ -5,22 +5,22 @@ import "./Destinations.css"
       name: 'Rome, Italy',
       price: '$5,42k',
       days: '10 Days Trip',
-      image: '/public/assets/images/rome.png',
-      arrow : '/public/assets/svg/destarrow.svg',
+      image: '/assets/images/rome.png',
+      arrow : '/assets/svg/destarrow.svg',
     },
     {
       name: 'London, UK',
       price: '$4.2k',
       days: '12 Days Trip',
-      image: '/public/assets/images/london.png',
-      arrow : '/public/assets/svg/destarrow.svg',
+      image: '/assets/images/london.png',
+      arrow : '/assets/svg/destarrow.svg',
     },
     {
       name: 'Full Europe',
       price: '$15k',
-      image: '/public/assets/images/europe.png',
+      image: '/assets/images/europe.png',
       days: '28 Days Trip',
-      arrow : '/public/assets/svg/destarrow.svg',
+      arrow : '/assets/svg/destarrow.svg',
     }
   ]
 
