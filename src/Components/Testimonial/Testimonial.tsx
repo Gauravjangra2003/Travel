@@ -63,9 +63,7 @@ const Testimonial = () => {
             className={`testimonial_card ${id === current ? "active" : ""}`}
           >
             <img src={i.image} alt="image not found" className="user-img" />
-
             <p className="text">{i.text}</p>
-
             <h3 className="name">{i.name}</h3>
             <p className="location">{i.location}</p>
           </div>
