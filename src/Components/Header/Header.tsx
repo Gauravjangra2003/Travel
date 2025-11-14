@@ -10,18 +10,18 @@ const Header = () => {
         <div className="header-content">
           <img src={LOGO} alt="logo not found" className="logo"/>
           <nav className="nav">
-            <Link to="/destinations" className="nav-link">
+             <a href="#destinations" className="nav-link">
               Destinations
-            </Link>
-            <Link to="/hotels" className="nav-link">
+            </a>
+            <a href="#hotels" className="nav-link">
               Hotels
-            </Link>
-            <Link to="/flights" className="nav-link">
+            </a>
+            <a href="#flights" className="nav-link">
               Flights
-            </Link>
-            <Link to="/bookings" className="nav-link">
+            </a>
+            <a href="#bookings" className="nav-link">
               Bookings
-            </Link>
+            </a>
           </nav>
           <div className="header-actions">
             <Link to="#login" className="login-link">Login</Link>

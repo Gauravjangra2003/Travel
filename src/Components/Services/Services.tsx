@@ -26,7 +26,7 @@ import STAR from "../../assets/images/star.png"
 
 const Services = () => {
   return (
-    <div className="services">
+    <div className="services" id="hotels">
       <div className="services_container">
         <div className="services_header">
           <div></div>

@@ -36,7 +36,7 @@ const iconimages = [
 
 const Bookingsteps = () => {
   return (
-    <div className="booking_steps">
+    <div className="booking_steps" id="bookings">
         <div className="bokking_container">
             <div className="booking_options">
                 <div className="booking_options_head">

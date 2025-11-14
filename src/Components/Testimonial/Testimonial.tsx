@@ -42,7 +42,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="testimonials_conatiner">
+    <div className="testimonials_conatiner" id='flights'>
       <div className="text-area">
         <p className="subheading">TESTIMONIALS</p>
         <h1 className="heading">What People Say<br />About Us.</h1> 

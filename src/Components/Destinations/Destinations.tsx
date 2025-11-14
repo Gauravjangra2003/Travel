@@ -26,7 +26,7 @@ import "./Destinations.css"
 
 const Destinations = () => {
   return (
-    <div className="destinations">
+    <div className="destinations" id="destinations">
         <div className="destination_container">
             <div className="destination_header">
                  <div className="destination-label">Top Selling</div>
