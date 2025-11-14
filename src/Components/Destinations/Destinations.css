@@ -1,0 +1,36 @@
+.destinations{
+    width: 100%;
+    padding-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid red;
+}
+
+.destination_container{
+    width: 1102px;
+    height: 617px;
+    border: 4px solid black;
+}
+
+.destination_header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid green;
+}
+
+.destination-label{
+    width: 100px;
+    height: 27px;
+    font-size: 18px;
+}
+
+.destination-title{
+    width: 418px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 6px;
+}
