@@ -1,11 +1,11 @@
 import './Partners.css'
 
 const partners = [
-    {images : '/src/assets/images/partner1.png'},
-    {images : '/src/assets/images/partner2.png'}, 
-    {images : '/src/assets/images/partner3.png'},
-    {images : '/src/assets/images/partner4.png'},
-    {images : '/src/assets/images/partner5.png'},
+    {images : '/public/assets/images/partner1.png'},
+    {images : '/public/assets/images/partner2.png'}, 
+    {images : '/public/assets/images/partner3.png'},
+    {images : '/public/assets/images/partner4.png'},
+    {images : '/public/assets/images/partner5.png'},
 ]
 
 const Partners = () => {

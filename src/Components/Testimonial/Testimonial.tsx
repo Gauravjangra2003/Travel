@@ -1,6 +1,6 @@
 import './Testimonial.css'
-import UP from "../../assets/svg/up.svg"
-import DOWN from "../../assets/svg/down.svg"
+import UP from "../../../public/assets/svg/up.svg"
+import DOWN from "../../../public/assets/svg/down.svg"
 import { useState } from 'react';
 
  const testimonial = [
@@ -8,7 +8,7 @@ import { useState } from 'react';
     id: 1,
     location: "Lahore, Pakistan",
     name: "Mike Taylor",
-    image: "/src/assets/svg/user1.svg",
+    image: "/public/assets/svg/user1.svg",
     text: `“On the Windows talking painted pasture yet its express parties use. 
     Sure last upon he same as knew next. Of believed or diverted no.”`,
   },
@@ -16,7 +16,7 @@ import { useState } from 'react';
     id: 2,
     location: "CEO of Red Button",
     name: "Chris Thomas",
-    image: "/src/assets/svg/user1.svg",
+    image: "/public/assets/svg/user1.svg",
     text: `“We needed a solution for travel planning and this app delivered exactly what we required. 
     Exceptional experience!”`,
   },
@@ -24,7 +24,7 @@ import { useState } from 'react';
     id: 3,
     location: "Dubai, UAE",
     name: "Zara Malik",
-    image: "/src/assets/svg/user1.svg",
+    image: "/public/assets/svg/user1.svg",
     text: `“Simple and fast. Planning trips has never been easier than this.”`,
   },
 ];

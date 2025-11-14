@@ -1,28 +1,30 @@
 import "./Services.css"
-import STAR from "../../assets/images/star.png"
+import STAR from "../../../public/assets/images/star.png"
 
   const services = [
     {
-      icon: '/src/assets/svg/sattelite.svg',
+      icon: '/public/assets/svg/sattelite.svg',
       title: 'Calculated Weather',
       description: 'Built Wicket longer admire do barton vanity itself do in it.'
     },
     {
-      icon: '/src/assets/svg/plane.svg',
+      icon: '/public/assets/svg/plane.svg',
       title: 'Best Flights',
       description: 'Engrossed listening. Park gate sell they west hard for the.'
     },
     {
-      icon: '/src/assets/svg/mike.svg',
+      icon: '/public/assets/svg/mike.svg',
       title: 'Local Events',
       description: 'Barton vanity itself do in it. Preferd to men it engrossed listening.'
     },
     {
-      icon: '/src/assets/svg/setting.svg',
+      icon: '/public/assets/svg/setting.svg',
       title: 'Customization',
       description: 'We deliver outsourced aviation services for military customers'
     }
   ]
+
+ 
 
 const Services = () => {
   return (

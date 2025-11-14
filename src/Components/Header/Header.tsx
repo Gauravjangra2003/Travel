@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
-import LOGO from "../../assets/svg/Logo.svg"
-import DOWNARROW from "../../assets/svg/downarrow.svg"
+import LOGO from "../../../public/assets/svg/Logo.svg"
+import DOWNARROW from "../../../public/assets/svg/downarrow.svg"
 import "./Header.css"
 
 const Header = () => {

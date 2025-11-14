@@ -1,20 +1,20 @@
 import "./Bookingsteps.css"
-import Greece from "../../assets/images/greece.png"
-import building from "../../assets/svg/building.svg"
-import heart from "../../assets/svg/heart.svg"
+import Greece from "../../../public/assets/images/greece.png"
+import building from "../../../public/assets/svg/building.svg"
+import heart from "../../../public/assets/svg/heart.svg"
 
 const BookingSteps = [
     {
-        images : '/src/assets/svg/destination.svg',
+        images : '/public/assets/svg/destination.svg',
         name : 'Choose Destination',
         description : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptates.'
     },
      {
-        images : '/src/assets/svg/payments.svg',
+        images : '/public/assets/svg/payments.svg',
         name : 'Make Payment',
         description : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptates.'
     }, {
-        images : '/src/assets/svg/reach.svg',
+        images : '/public/assets/svg/reach.svg',
         name : 'Reach Airport on Selected Date',
         description : ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, voluptates.'
     },

@@ -1,12 +1,12 @@
 import './Footer.css'
-import Jadoo from '../../assets/svg/Jadoo..svg'
-import googleplay from "../../assets/svg/GooglePlay.svg"
-import applestore from "../../assets/svg/PlayStore.svg"
+import Jadoo from '../../../public/assets/svg/Jadoo..svg'
+import googleplay from "../../../public/assets/svg/GooglePlay.svg"
+import applestore from "../../../public/assets/svg/PlayStore.svg"
 
 const DiscoverIcon = [
-    {id : 1 , images :'/src/assets/svg/social.svg'},
-    {id : 2 , images :'/src/assets/svg/social(1).svg'},
-    {id : 3 , images :'/src/assets/svg/social(2).svg'},
+    {id : 1 , images :'/public/assets/svg/social.svg'},
+    {id : 2 , images :'/public/assets/svg/social(1).svg'},
+    {id : 3 , images :'/public/assets/svg/social(2).svg'},
 ]
 
 const Footer = () => {

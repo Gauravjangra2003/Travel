@@ -1,6 +1,6 @@
 import "./HeroSection.css";
-import heroimg from "../../assets/images/HeroImg.png"
-import playbtn from "../../assets/svg/Playbutton.svg"
+import heroimg from "../../../public/assets/images/HeroImg.png"
+import playbtn from "../../../public/assets/svg/Playbutton.svg"
 
 export const HeroSection = () => {
   return (

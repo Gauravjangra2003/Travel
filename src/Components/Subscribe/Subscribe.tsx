@@ -1,7 +1,7 @@
 import './Subscribe.css'
-import STAR from "../../assets/images/stardown.png"
-import telegramimg from "../../assets/svg/telegram.svg"
-import mail from "../../assets/svg/mail.svg"
+import STAR from "../../../public/assets/images/stardown.png"
+import telegramimg from "../../../public/assets/svg/telegram.svg"
+import mail from "../../../public/assets/svg/mail.svg"
 
 const Subscribe = () => {
   return (
