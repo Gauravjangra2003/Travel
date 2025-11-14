@@ -4,7 +4,9 @@ import Bookingsteps from './Components/BookingSteps/Bookingsteps'
 import Destinations from './Components/Destinations/Destinations'
 import Header from './Components/Header/Header'
 import { HeroSection } from './Components/HeroSection/HeroSection'
+import Partners from './Components/Partners/Partners'
 import Services from './Components/Services/Services'
+import Testimonial from './Components/Testimonial/Testimonial'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Services />
       <Destinations />
       <Bookingsteps />
+      <Testimonial />
+      <Partners />
     </div>
   )
 }

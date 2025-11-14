@@ -1,0 +1,32 @@
+.partners{
+      width: 100%;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners_container{
+    width: 1073px;
+    height: 162px;
+}
+
+.partners_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.icon_body{
+    width: 270px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_body:hover{
+    box-shadow: 0 40px 40px rgba(107, 105, 105, 0.1);
+    border-radius: 12px;
+}
