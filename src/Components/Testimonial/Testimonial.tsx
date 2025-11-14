@@ -47,7 +47,7 @@ const Testimonial = () => {
         <p className="subheading">TESTIMONIALS</p>
         <h1 className="heading">What People Say<br />About Us.</h1> 
         <div className="dots">
-          {testimonial.map((i, id) => (
+          {testimonial.map(( _ , id) => (
             <span
               key={id}
               className={`dot ${id === current ? "active" : ""}`}
