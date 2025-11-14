@@ -1,5 +1,6 @@
 
 import './App.css'
+import Bookingsteps from './Components/BookingSteps/Bookingsteps'
 import Destinations from './Components/Destinations/Destinations'
 import Header from './Components/Header/Header'
 import { HeroSection } from './Components/HeroSection/HeroSection'
@@ -13,6 +14,7 @@ function App() {
       <HeroSection />
       <Services />
       <Destinations />
+      <Bookingsteps />
     </div>
   )
 }

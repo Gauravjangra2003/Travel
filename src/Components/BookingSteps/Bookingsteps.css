@@ -1,0 +1,152 @@
+.booking_steps{
+    width: 100%;
+    padding-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bokking_container{
+    width: 1114px;
+    height: 492px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking_options{
+    width: 395px;
+    height: 492px;
+    hyphenate-character: 492px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.booking_options_head{
+    width: 395px;
+    height: 90px;
+}
+
+.bokking_options_subhead{
+    width: 395px;
+    height:289px ;
+}
+
+.booking_head1{
+    width: 126px;
+    height: 27px;
+    font-size: 18px;
+    font-weight: 100;
+    color: gray;
+}
+
+.booking_head2{
+    width: 130px;
+    height: 55px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.booking_box{
+    width: 395px;
+    height: 64px;
+    display: flex;
+    gap: 30px;
+}
+
+.bokking_options_subhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.booking_box_logo{
+    width: 47px;
+    height: 48px;
+}
+
+.booking_box_name{
+    width: 254px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.booking_box_desc{
+    width: 260px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.booking_view{
+    width: 418px;
+    height: 500px;
+    margin-top: 25px;
+}
+
+.booking_view_card{
+    width: 370px;
+    height: 420px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.booking_greece_img{
+    width: 321px;
+    height: 161px;
+}
+
+.booking_trip_content{
+    width: 321px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons1{
+    width: 139px;
+    height: 36px;
+    display: flex;
+    gap: 22px;
+    padding-top: 12px;
+}
+
+.ongoing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ongoing2{
+    display: flex;
+    gap: 10px;
+}
+
+.ongoing_text{
+    width: 126px;
+    height: 20px;
+    font-size: 16px;
+    color: rgb(151, 150, 150);
+}
+
+.greecehead{
+    width: 134px;
+    height: 22px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.greecedate{
+    width: 220px;
+    height: 20px;
+    font-size: 16px;
+    color: rgb(151, 150, 150);
+    padding-top: 14px;
+}
