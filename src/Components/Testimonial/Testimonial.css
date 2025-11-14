@@ -1,14 +1,120 @@
-.testimonial{
-     width: 100%;
-    padding-top: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid red;
+.testimonials_conatiner{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 120px;
+  padding-top: 150px;
 }
 
-.testimonial_container{
-    width: 1165px;
-    height: 356px;
-    border: 2px solid black;
+.text-area {
+  width: 409px;
 }
+
+.subheading {
+  color: #75758b;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.heading {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #0c1132;
+  margin-top: 10px;
+}
+
+.dots {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #e0e0e0;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.dot.active {
+  background: #0c1132;
+}
+
+.testimonial-card-container {
+  width: 52%;
+  position: relative;
+  left: 100px;
+}
+
+.testimonial_card {
+  width: 90%;
+  background: white;
+  padding: 40px;
+  border-radius: 18px;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.5s ease;
+  box-shadow: 0px 20px 70px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial_card.active {
+  opacity: 1;
+  transform: translateY(0px);
+  z-index: 2;
+}
+
+.user-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: -30px;
+}
+
+.text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 30px;
+  color: #515466;
+}
+
+.name {
+  margin-top: 20px;
+  font-weight: 700;
+  color: #19264b;
+}
+
+.location {
+  color: #8a8a9b;
+  margin-top: 4px;
+}
+
+.Arrows{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 26px;
+    margin: 80px;
+}
+
+
+.arrow_up{
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.arrow_down{
+    width: 40px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
