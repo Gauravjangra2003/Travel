@@ -3,7 +3,7 @@ import UP from "../../assets/svg/up.svg"
 import DOWN from "../../assets/svg/down.svg"
 import { useState } from 'react';
 
- const testimonialsData = [
+ const testimonial = [
   {
     id: 1,
     location: "Lahore, Pakistan",
@@ -34,22 +34,20 @@ const Testimonial = () => {
    const [current, setCurrent] = useState(0);
 
   const nextSlide = () => {
-    setCurrent((current + 1) % testimonialsData.length);
+    setCurrent((current + 1) % testimonial.length);
   };
 
   const prevSlide = () => {
-    setCurrent((current - 1 + testimonialsData.length) % testimonialsData.length);
+    setCurrent((current - 1 + testimonial.length) % testimonial.length);
   };
 
   return (
     <div className="testimonials_conatiner">
       <div className="text-area">
         <p className="subheading">TESTIMONIALS</p>
-        <h1 className="heading">What People Say<br />About Us.</h1>
-
-        {/* Dots */}
+        <h1 className="heading">What People Say<br />About Us.</h1> 
         <div className="dots">
-          {testimonialsData.map((i, id) => (
+          {testimonial.map((i, id) => (
             <span
               key={id}
               className={`dot ${id === current ? "active" : ""}`}
@@ -58,16 +56,13 @@ const Testimonial = () => {
           ))}
         </div>
       </div>
-
-
       <div className="testimonial-card-container">
-        
-        {testimonialsData.map((i, id) => (
+        {testimonial.map((i, id) => (
           <div
             key={i.id}
             className={`testimonial_card ${id === current ? "active" : ""}`}
           >
-            <img src={i.image} alt="user" className="user-img" />
+            <img src={i.image} alt="image not found" className="user-img" />
 
             <p className="text">{i.text}</p>
 
@@ -75,14 +70,11 @@ const Testimonial = () => {
             <p className="location">{i.location}</p>
           </div>
         ))}
-
       </div>
-
-          <div className='Arrows'>
-
+      <div className='Arrows'>
         <button className="arrow_up" onClick={prevSlide}><img src={UP} alt="" /></button>
         <button className="arrow_down" onClick={nextSlide}><img src={DOWN} alt="" /></button>
-        </div>
+      </div>
 
     </div>
   )
