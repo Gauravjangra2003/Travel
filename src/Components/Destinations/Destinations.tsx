@@ -33,6 +33,26 @@ const Destinations = () => {
                  <h2 className="destination-title">Top Destinations</h2>
             </div>
            
+            <div className="destinations-grid">
+            {destinations.map((destination, index) => (
+            <div key={index} className="destination-card">
+              <div className={`destination-image ${destination.name}`}>
+                <div className="destination_full"><img src={destination.image} alt="" /></div>
+              </div>
+              <div className="destination-info">
+                <div className="destination_items">
+                  <h3 className="destination-name">{destination.name}</h3>
+                <div className="destination-price">{destination.price}</div>
+                </div>
+                <div className="destination-trip">
+                  <span className="trip-icon"><img src={destination.arrow} alt="" /></span>
+                  <span>{destination.days}</span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
         </div>
     </div>
   )

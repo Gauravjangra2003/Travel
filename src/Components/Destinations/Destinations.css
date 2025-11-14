@@ -4,13 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid red;
 }
 
 .destination_container{
     width: 1102px;
     height: 617px;
-    border: 4px solid black;
 }
 
 .destination_header{
@@ -18,7 +16,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid green;
 }
 
 .destination-label{
@@ -33,4 +30,99 @@
     font-weight: bold;
     font-size: 50px;
     padding-top: 6px;
+}
+
+/* image section */
+
+.destinations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.destination-card {
+    width: 315px;
+    height: 457px;
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.destination-card:hover{
+     transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+
+.destination-image {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.destination_full{
+    width: 314px;
+    height: 457px;
+    display: flex;
+    justify-content: center;
+}
+
+.destination_full img {
+    width: 462px;
+    height: 720px;
+    object-fit: contain;
+}
+
+.destination-emoji {
+  font-size: 8rem;
+  opacity: 0.9;
+  transition: transform 0.3s ease;
+}
+
+
+.destination-info {
+  padding: 1.5rem;
+}
+
+.destination_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #181e4b;
+  margin-bottom: 0.5rem;
+}
+
+.destination-price {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5e6282;
+  margin-bottom: 0.75rem;
+}
+
+.destination-trip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #5e6282;
+  font-size: 1rem;
+  padding-top: 16px;
+}
+
+.trip-icon {
+  width: 20px;
+  height: 20px;
 }
