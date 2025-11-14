@@ -1,0 +1,118 @@
+.Footer{
+    width: 100%;
+    padding-top: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_container{
+    width: 1080px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.F_Name{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 207px;
+    height: 133px;
+}
+
+.Jadoo{
+    width: 152px;
+    height: 66px;
+}
+
+.jadoo_para{
+    width: 190px;
+    height: 48px;
+    font-size: 13px;
+    line-height: 124.5%;
+    color: rgb(102, 101, 101);
+}
+
+.More{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    align-items: center;
+}
+
+.More1{
+    width: 474px;
+    height: 153px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.F_head1{
+    width: 108px;
+    height: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.F_head1 h2{
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.F_head1 p{
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(86, 84, 84);
+}
+
+.More2{
+    width: 203px;
+    height: 17px;
+}
+
+.copyright{
+    font-size: 14px;
+    font-weight: 100;
+    color: rgb(125, 121, 121);
+}
+
+.Discover{
+    width: 214px;
+    height: 147px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.discover_icon{
+    width: 177px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.discoverstore{
+    width: 214px;
+    height: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.stores{
+    display: flex;
+    justify-content: space-between;
+}
+
+.paradiscover{
+    width: 173px;
+    height: 25px;
+    font-size: 20px;
+    color: rgb(88, 86, 86);
+    font-weight: 600
+}
