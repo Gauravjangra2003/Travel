@@ -4,11 +4,92 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid red;
 }
 
 .subscribe_container{
     width: 1356px;
     height: 490px;
-    border: 2px solid black;
+    display: flex;
+}
+
+.empty{
+    width: 70px;
+}
+
+.Subsribe_mail{
+    width: 1170px;
+    height: 407px;
+    position: relative;
+    left: 50px;
+    background-color: #DFD7F9;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.star_content{
+    display: flex;
+    align-items: flex-end;
+    width: 153px;
+}
+
+.telegram{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    left: 26px;
+    bottom: 26px;
+}
+
+.subscribe_para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 859px;
+    height: 108px;
+    position: relative;
+    left: 135px;
+}
+
+.real_para{
+     display: flex;
+    align-items: center;
+    font-size: 33px;
+}
+
+.mail_box{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    gap: 16px;
+}
+
+.mail_img{
+    position: relative;
+    left: 57px;
+}
+
+.mail_input{
+    width: 421px;
+    height: 68px;
+    color: black;
+    outline: none;
+    padding-left: 55px;
+    border: none;
+    border-radius: 10px;
+}
+
+.primary_btn{
+    width: 180px;
+    height: 68px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(244, 126, 83);
+    color: white;
+    font-size: 17px;
 }
